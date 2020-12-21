@@ -19,7 +19,6 @@ export default function Projects() {
   }, []);
 
   function getRepoData() {
-    console.log("XDD");
     const client = new ApolloClient({
       uri: "https://api.github.com/graphql",
       request: (operation) => {

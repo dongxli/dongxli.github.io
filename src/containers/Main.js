@@ -26,7 +26,6 @@ export default class Main extends Component {
     this.state = {
       isDark: false,
     };
-    console.log(process.env.REACT_APP_GITHUB_TOKEN);
   }
 
   componentDidMount() {
